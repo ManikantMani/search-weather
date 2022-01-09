@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.temp_form {    
+    width: 60%;
+    position: relative;
+    margin: 100px auto 60px;
+}
+
+.temp_form .input[type="text"] {
+    width: 100%;
+    padding: 2rem 5rem 2rem 2rem;
+    background-color: #1e202b;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    border-radius: 30px;
+}
+
+::placeholder {
+    color: white;
+}
+
+.temp_form .input[type="button"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: none;
+    background: #009ad8;
+    padding: 0 30px;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+}
+
+.temp_form .input[type="button"]:hover {
+    color: #009ad8;
+    background-color: white;
+}
+
+/* temp details show here */
+
+.tempInformation {
+    width: 400px;
+    margin: auto;
+    min-height: 200px;
+    background-color: #323544;
+    border-radius: 10px;
+    /* padding: 1rem; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top_layer {
+    width: 100%;
+    height: 20%;
+    background-color: #0a102b;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.top_layer p {
+    color: white;
+    font-weight: 300;   
+    padding: 20px;
+}
+.main_layer {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    /* padding: 2rem; */
+}
+
+.main_layer .city_name {
+    padding: 20px 0;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 2rem;
+}
+
+.main_layer .middle_layer {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+.main_layer .middle_layer p , 
+.main_layer .middle_layer .fa {
+    font-size: 6.5rem;
+    font-weight: 900;
+}
+.fas {
+    color: #009ad8;
+}
+
+/* sup {
+    font-size: 60px;
+    margin-top: -20rem;
+} */
+/* when search box is empty then it will comes in action */
+/* .data_hide {
+    visibility: hidden;
+    transition: all 0.3s linear;
+} */
+
+
+footer {
+    border: 2px solid red;
+}
